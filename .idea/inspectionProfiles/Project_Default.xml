@@ -1,0 +1,41 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyCompatibilityInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ourVersions">
+        <value>
+          <list size="2">
+            <item index="0" class="java.lang.String" itemvalue="2.7" />
+            <item index="1" class="java.lang.String" itemvalue="3.7" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="id" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="false" level="WARNING" enabled_by_default="false">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="Tokenise.tokenise.irtokz" />
+          <option value="Tokenise.tagging_test.irtokz" />
+          <option value="Tokenise.tagging_test.sandhisplitter" />
+          <option value="Tokenise.sandhisplitter.splitter.sandhisplitter" />
+          <option value="Tokenise.sandhisplitter.splitter.model" />
+          <option value="Tokenise.sandhisplitter.model.sandhisplitter" />
+          <option value="Tokenise.sandhisplitter.splitter.smodel" />
+          <option value="Tokenise.sandhisplitter.sandhisplitter" />
+          <option value="Tokenise.sandhisplitter.joiner" />
+          <option value="Tokenise.sandhisplitter.postprocessor" />
+          <option value="str.close" />
+          <option value="Features.feature_extraction.pos" />
+          <option value="Tokenise.tokenise.sandhisplitter" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+nose_xvfb.egg-info/PKG-INFO
+nose_xvfb.egg-info/SOURCES.txt
+nose_xvfb.egg-info/dependency_links.txt
+nose_xvfb.egg-info/entry_points.txt
+nose_xvfb.egg-info/requires.txt
+nose_xvfb.egg-info/top_level.txt
+nosexvfb/__init__.py
+nosexvfb/xvfb.py

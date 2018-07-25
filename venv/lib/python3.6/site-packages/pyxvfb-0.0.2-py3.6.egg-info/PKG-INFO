@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: pyxvfb
+Version: 0.0.2
+Summary: Python wrapper for the xvfb command
+Home-page: https://bitbucket.org/boerni/pyxvfb
+Author: Bernhard Janetzki
+Author-email: boerni@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN

@@ -1,0 +1,24 @@
+#!/bin/sh
+# Author: Christian Steinruecken <tcs27@cam.ac.uk>
+# Version 0.9
+
+self=`basename $0`
+if [ "$#" -gt 1 ]; then
+  echo "$self: more than one argument supplied... forgot some quotation marks?"
+elif [ -z "$1" ]; then
+  echo "Syntax: `basename $0` [path]"
+  echo "  Displays the full (expanded) name of the path given as argument."
+else
+  if [ -d "$1" ]; then
+    ( cd $1; pwd )
+  elif [ -e "$1" ]; then
+    dir=`dirname "$1"`
+    fnm=`basename "$1"`
+    #fnm=`echo "$1" | sed "s%.*/%%"`;
+    cd "$dir"; fdir=`pwd`;
+    echo "$fdir/$fnm"
+  else
+    echo "$self: $1: no such file or directory" >&2
+    exit 1
+  fi
+fi

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Flask Multiple Upload</title>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+<div align="center">
+<h1>KEYWORD EXTRACTION FROM MALAYALAM NEWS ARTICLES</h1>
+
+<strong>ENTER THE URL FOR FINDING THE KEYWORDS..</strong> 
+
+
+
+
+<hr>
+
+<form id="upload-form" action="{{ url_for('upload') }}" method="POST" enctype="multipart/form-data">
+    <strong>ENTER URL:</strong><br>
+    <input type="text" size="20" name="input1" value="">
+
+
+
+    <hr>
+    <strong>Text Area:</strong>
+<br>
+    <textarea rows="4" cols="40" name="textarea"></textarea><p>
+
+    
+    
+
+    <fieldset id="progress" style="display: none">
+        <legend>Extraction Progress</legend>
+
+        <div class="progress-trough">
+            <div id="progress-bar" class="progress-bar">0%</div>
+        </div>
+    </fieldset><p>
+<hr>
+    <input type="submit" value="find keyword" id="upload-button">
+</form>
+
+<script type="text/javascript" src="{{ url_for('static', filename='js/jquery-2.1.1.min.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/uploadr.js') }}"></script>
+</div>	
+</body>
+</html>

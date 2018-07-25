@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: nose-xvfb
+Version: 0.13.1
+Summary: Virtual display nose plugin through Xvfb
+Home-page: https://github.com/grupotaric/nose-xvfb
+Author: Javier Santacruz
+Author-email: javier.santacruz.lc@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: testing,nose,xvfb,x.org
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Testing
